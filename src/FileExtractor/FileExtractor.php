@@ -25,9 +25,9 @@ interface FileExtractor
     public function getSourceLocations(SplFileInfo $file, SourceCollection $collection);
 
     /**
-     * The file type the extractor supports.
+     * The file types the extractor supports.
      *
-     * @return string
+     * @return array
      */
-    public function getType();
+    public function getTypes();
 }
